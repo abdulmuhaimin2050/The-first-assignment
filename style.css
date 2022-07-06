@@ -164,3 +164,8 @@ body{
     width: 80%;
     margin: auto;
 }
+.footer-div{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
