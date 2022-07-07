@@ -1,24 +1,27 @@
-body{
+body {
     font-family: 'Nunito Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
+
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,2)),url("images/donation1.jpg");
-    height:800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 2)), url("images/donation1.jpg");
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:30px ;
+    padding-top: 30px;
 }
-.header h1{
+
+.header h1 {
     font-size: 70px;
     text-align: center;
     color: white;
     padding: 150px 200px 0px 200px;
-   
+
 }
-.header p{
+
+.header p {
     color: white;
     text-align: center;
     padding-left: 300px;
@@ -26,32 +29,37 @@ body{
     font-size: 15px;
 }
 
-.header a{
+.header a {
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
     color: white;
-    background-color:tomato;
+    background-color: tomato;
     border-radius: 5px;
 }
-.header-button{
+
+.header-button {
     width: 50%;
     margin: auto;
-    padding:3% 45%;
+    padding: 3% 45%;
 }
-.donate-today{
+
+.donate-today {
     text-align: center;
 }
-.donate-today h1{
+
+.donate-today h1 {
     font-size: 40px;
     margin-top: 100px;
     margin-bottom: 0%;
 }
-.donate-today p{
+
+.donate-today p {
     font-size: 20px;
-    margin:0%;
+    margin: 0%;
 }
-.section2-div{
+
+.section2-div {
     width: 100%;
     text-align: center;
     display: flex;
@@ -60,7 +68,8 @@ body{
     margin: auto;
 
 }
-.amount-div{
+
+.amount-div {
     width: 10%;
     height: 20px;
     margin: 10px;
@@ -71,17 +80,20 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
-#selacted-amount{
+
+#selacted-amount {
     color: tomato;
-    background-color:rgb(255, 197, 197);
+    background-color: rgb(255, 197, 197);
     border-color: tomato;
 }
-.other-amount{
+
+.other-amount {
     width: 50%;
     padding: 100px;
     margin: auto;
 }
-.other-amount h6{
+
+.other-amount h6 {
     text-align: center;
     font-size: 20px;
     margin: 0%;
@@ -89,54 +101,129 @@ body{
     color: lightgray;
     font-weight: 100;
 }
-.other-amount hr{
+
+.other-amount hr {
     color: lightgray;
 }
-.other-amount a{
+
+.other-amount a {
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
     color: white;
-    background-color:tomato;
+    background-color: tomato;
     border-radius: 5px;
 }
-.pay-button{
+
+#pay-button {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
     text-align: center;
 }
-.plan-div{
+
+.plan-div {
     text-align: center;
     width: 50%;
     margin: auto;
 }
-.plan-div h1{
-    font-weight:bold;
-    font-size: 60px;
+
+.plan-div h1 {
+    font-weight: bold;
+    font-size: 50px;
 }
-.cetagory-parant{
-    width:100% ;
+
+.cetagory-parant {
+    width: 100%;
     height: 100%;
     margin: 0%;
-    padding:10px;
+    padding: 10px;
     display: flex;
 }
-.cetagory-child{
+
+.cetagory-child {
     border-radius: 5px;
-    background-color:rgb(255, 207, 199);
+    background-color: rgb(255, 207, 199);
     width: 400px;
-    height:300px;
+    height: 300px;
     margin: 3%;
     padding: 30px;
 }
-.updete-div{
+
+#about-headding {
+    display: inline;
+    margin-left: 50px;
+}
+
+.about-section1 {
+    width: 90%;
+    display: flex;
+    padding: 0% 5% 0% 5%;
+}
+
+.about-div1 {
+    width: 45%;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+.about-div1 h1 {
+    font-size:50px;
+}
+
+.about-button {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+.about-div2 {
+    width: 45%;
+    padding:5%;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-section2 {
+    width: 90%;
+    display: flex;
+    padding: 0% 5% 0% 5%;
+}
+
+.evant-div1 {
+    width: 45%;
+    padding: 5%;
+}
+
+.evant-div2 h1 {
+    font-size: 50px;
+}
+
+.evant-div2 {
+    width: 45%;
+    padding:5%;
+    padding-top: 0%;
+}
+
+.updete-div {
     width: 50%;
     margin: auto;
     text-align: center;
 }
-.subscriber-div{
+
+.updete-div h1 {
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+.subscriber-div {
     width: 500px;
     height: 200px;
     margin: auto;
@@ -144,13 +231,15 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 200px;
+    border-radius: 5px;
 }
 
-.email.input{
+.email.input {
     text-align: center;
 
 }
-.subscriber-div input{
+
+.subscriber-div input {
     margin: auto;
     margin-top: 90px;
     width: 18em;
@@ -158,28 +247,32 @@ body{
     background-color: rgb(207, 206, 206);
     border: none;
 }
-.subscriber-div button{
+
+.subscriber-div button {
     margin: auto;
-    width:8em;
+    width: 8em;
     height: 3em;
     background-color: red;
     color: white;
     border: none;
     padding: 10px;
 }
-.email-div{
-    display:block;
+
+.email-div {
+    display: block;
     width: 80%;
     margin: auto;
 }
-.footer-div{
+
+.footer-div {
     width: 100%;
-    height:160px;
+    height: 160px;
     background-color: black;
     text-align: center;
     padding: 20px;
-    color:tomato;
+    color: tomato;
 }
-.footer-div p{
+
+.footer-div p {
     color: white;
 }
